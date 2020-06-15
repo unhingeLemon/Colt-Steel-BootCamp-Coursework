@@ -1,0 +1,16 @@
+body{
+    background: url(imgs/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content1 {
+    text-align: center;
+    padding: 20%;
+    font-weight: bolder;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}

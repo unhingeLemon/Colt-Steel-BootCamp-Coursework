@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro";
+}
+
+body {
+    width: 70%;
+    border: 20px solid #f4fa9c;
+    margin: 20px auto;
+}
+
+.date {
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    color:#6e3185;
+}
+
+h2 {
+    padding: 20px;
+    font-size: 30px;
+    color: #3c3f17;
+}
+
+p {
+    font-size: 20px;
+    margin: 10px 20px;
+    padding-bottom: 10px;
+}
+
+.first-p{
+    border-left: 10px solid #ba53de;
+    margin: 10px 20px;
+    padding-left: 5px;
+}
