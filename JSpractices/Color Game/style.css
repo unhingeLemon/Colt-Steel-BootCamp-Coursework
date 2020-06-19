@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+ 
+    font-family: "Roboto";
+
+}
+
+h2 {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+
+.lower_head{
+    display: flex;
+    font-weight: bold;
+    background-color: whitesmoke;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+
+
+
+.dificulty{
+    display: flex;
+    width: 10%;
+}
+
+#easy{
+    padding: .2rem .5rem;
+}
+
+#hard{
+    padding: .2rem .5rem;
+}
+
+#easy:hover{
+    background-color: #9e579d;
+    transition: .2s ease;
+    cursor: pointer;
+    color: white;
+}
+#hard:hover{
+    background-color: #9e579d;
+    transition: .2s ease;
+    cursor: pointer;
+    color: white;
+}
+
+#newColors{
+    
+    text-align: center;
+}
+
+#message{
+    text-align: center;
+    padding: .3rem .3rem;
+}
+body{
+    background-color: #232323;
+}
+header {
+    width: 100%;
+    padding: .5rem 0;
+    letter-spacing: .1rem;
+    text-align: center;
+    background: #9e579d;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.square{
+    padding-left: 30%;
+    background-color:#232323;
+    margin: 1.66%;
+    padding-top: 30%;
+    border-radius: 30px;
+}
+
+.square:hover{
+    opacity: 90%;
+    transition: .2s ease;
+   
+}
+
+#newColors{
+    padding: .2rem .2rem;
+    
+}
+
+#newColors:hover{
+    background-color: #9e579d;
+    transition: .2s ease;
+    cursor: pointer;
+    color: white;
+
+}
+
+
+.returnBG{
+    background-color: #9e579d;
+    transition: .2s ease;
+}
+

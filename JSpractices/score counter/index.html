@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .winner {
+            color: green;
+        }
+        .btn:hover{
+            background: red;
+            transition: .5s ease;
+        }
+
+    </style>
+</head>
+<body>
+    <h1><span id="p1-score">0</span> to <span id="p2-score">0</span></h1>
+
+    <p>Playing to: <span id="limit">0</span></p>
+
+    <input type="number" id="num"> 
+    <button class="btn" id="addP1">Player 1</button>
+    <button class="btn" id="addP2">Player 2</button>
+    <button class="btn" id="reset">Reset</button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
